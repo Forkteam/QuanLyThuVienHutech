@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmThongKe));
             this.label1 = new System.Windows.Forms.Label();
             this.cbSoSach = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,20 +45,18 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(383, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(287, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 48);
+            this.label1.Size = new System.Drawing.Size(186, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "THỐNG KÊ";
             // 
             // cbSoSach
             // 
             this.cbSoSach.FormattingEnabled = true;
-            this.cbSoSach.Location = new System.Drawing.Point(623, 108);
-            this.cbSoSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSoSach.Location = new System.Drawing.Point(467, 88);
             this.cbSoSach.Name = "cbSoSach";
-            this.cbSoSach.Size = new System.Drawing.Size(69, 24);
+            this.cbSoSach.Size = new System.Drawing.Size(53, 21);
             this.cbSoSach.TabIndex = 3;
             this.cbSoSach.SelectedIndexChanged += new System.EventHandler(this.cbSoSach_SelectedIndexChanged);
             // 
@@ -65,10 +64,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(701, 108);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(526, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(267, 22);
+            this.label2.Size = new System.Drawing.Size(208, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "cuốn sách được mượn nhiều nhất";
             // 
@@ -85,14 +83,13 @@
             this.Column2,
             this.Column15});
             this.dataGridViewSach.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridViewSach.Location = new System.Drawing.Point(20, 142);
-            this.dataGridViewSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewSach.Location = new System.Drawing.Point(15, 115);
             this.dataGridViewSach.MultiSelect = false;
             this.dataGridViewSach.Name = "dataGridViewSach";
             this.dataGridViewSach.ReadOnly = true;
             this.dataGridViewSach.RowHeadersWidth = 51;
             this.dataGridViewSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewSach.Size = new System.Drawing.Size(992, 358);
+            this.dataGridViewSach.Size = new System.Drawing.Size(744, 291);
             this.dataGridViewSach.TabIndex = 5;
             // 
             // Column1
@@ -121,10 +118,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(20, 95);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(15, 77);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 42);
+            this.button1.Size = new System.Drawing.Size(94, 34);
             this.button1.TabIndex = 6;
             this.button1.Text = "Xuất file Excel";
             this.button1.UseVisualStyleBackColor = true;
@@ -132,16 +128,16 @@
             // 
             // FrmThongKe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(1028, 514);
+            this.ClientSize = new System.Drawing.Size(771, 418);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridViewSach);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbSoSach);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmThongKe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmThongKe";

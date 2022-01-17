@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQuyDinh));
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,10 +49,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(151, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(113, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 48);
+            this.label1.Size = new System.Drawing.Size(185, 39);
             this.label1.TabIndex = 2;
             this.label1.Text = "QUY ĐỊNH";
             // 
@@ -68,14 +68,13 @@
             this.Column2,
             this.Column3});
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 316);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 257);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(476, 254);
+            this.dataGridView1.Size = new System.Drawing.Size(357, 206);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -107,10 +106,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 87);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(17, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 22);
+            this.label2.Size = new System.Drawing.Size(85, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "Mã quy định";
             // 
@@ -118,20 +116,18 @@
             // 
             this.txtMaQuyDinh.Enabled = false;
             this.txtMaQuyDinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaQuyDinh.Location = new System.Drawing.Point(144, 84);
-            this.txtMaQuyDinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaQuyDinh.Location = new System.Drawing.Point(108, 68);
             this.txtMaQuyDinh.Name = "txtMaQuyDinh";
-            this.txtMaQuyDinh.Size = new System.Drawing.Size(347, 30);
+            this.txtMaQuyDinh.Size = new System.Drawing.Size(261, 26);
             this.txtMaQuyDinh.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 150);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(15, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 22);
+            this.label3.Size = new System.Drawing.Size(87, 19);
             this.label3.TabIndex = 6;
             this.label3.Text = "Tên quy định";
             // 
@@ -139,19 +135,17 @@
             // 
             this.txtTenQuyDinh.Enabled = false;
             this.txtTenQuyDinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenQuyDinh.Location = new System.Drawing.Point(144, 144);
-            this.txtTenQuyDinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenQuyDinh.Location = new System.Drawing.Point(108, 117);
             this.txtTenQuyDinh.Name = "txtTenQuyDinh";
-            this.txtTenQuyDinh.Size = new System.Drawing.Size(347, 30);
+            this.txtTenQuyDinh.Size = new System.Drawing.Size(261, 26);
             this.txtTenQuyDinh.TabIndex = 7;
             // 
             // txtSoLuong
             // 
             this.txtSoLuong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoLuong.Location = new System.Drawing.Point(144, 201);
-            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoLuong.Location = new System.Drawing.Point(108, 163);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(347, 30);
+            this.txtSoLuong.Size = new System.Drawing.Size(261, 26);
             this.txtSoLuong.TabIndex = 8;
             this.txtSoLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoLuong_KeyPress);
             // 
@@ -159,10 +153,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(20, 204);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(15, 166);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 22);
+            this.label4.Size = new System.Drawing.Size(64, 19);
             this.label4.TabIndex = 6;
             this.label4.Text = "Số lượng";
             // 
@@ -171,10 +164,9 @@
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Image = global::QuanLyThuVien.Properties.Resources.Knob_Smart_icon;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(16, 258);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Location = new System.Drawing.Point(12, 210);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(109, 50);
+            this.btnSua.Size = new System.Drawing.Size(82, 41);
             this.btnSua.TabIndex = 9;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -183,10 +175,10 @@
             // 
             // FrmQuyDinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(508, 585);
+            this.ClientSize = new System.Drawing.Size(381, 475);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.txtSoLuong);
             this.Controls.Add(this.txtTenQuyDinh);
@@ -196,7 +188,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmQuyDinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmQuyDinh";

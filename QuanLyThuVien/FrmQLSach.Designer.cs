@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmQLSach));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button2 = new System.Windows.Forms.Button();
@@ -117,11 +118,10 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(55, 78);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Location = new System.Drawing.Point(41, 63);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1179, 772);
+            this.tabControl1.Size = new System.Drawing.Size(884, 627);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -136,11 +136,10 @@
             this.tabPage1.Controls.Add(this.dataGridViewSach);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 31);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 28);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1171, 737);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(876, 595);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Thông tin sách";
             // 
@@ -148,10 +147,9 @@
             // 
             this.button2.Image = global::QuanLyThuVien.Properties.Resources.Knob_Cancel_icon;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(783, 673);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(587, 547);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 50);
+            this.button2.Size = new System.Drawing.Size(88, 41);
             this.button2.TabIndex = 6;
             this.button2.Text = "Huỷ";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -161,10 +159,9 @@
             // txtTimKiem
             // 
             this.txtTimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.Location = new System.Drawing.Point(648, 320);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTimKiem.Location = new System.Drawing.Point(486, 260);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(424, 30);
+            this.txtTimKiem.Size = new System.Drawing.Size(319, 26);
             this.txtTimKiem.TabIndex = 5;
             this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
@@ -172,10 +169,9 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(539, 325);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(404, 264);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(85, 22);
+            this.label16.Size = new System.Drawing.Size(65, 19);
             this.label16.TabIndex = 4;
             this.label16.Text = "Tìm kiếm";
             // 
@@ -185,10 +181,9 @@
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Image = global::QuanLyThuVien.Properties.Resources.Knob_Smart_icon;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(591, 673);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Location = new System.Drawing.Point(443, 547);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(109, 50);
+            this.btnSua.Size = new System.Drawing.Size(82, 41);
             this.btnSua.TabIndex = 2;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -201,10 +196,9 @@
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Image = global::QuanLyThuVien.Properties.Resources.Knob_Remove_Red_icon;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(389, 673);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Location = new System.Drawing.Point(292, 547);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(121, 50);
+            this.btnXoa.Size = new System.Drawing.Size(91, 41);
             this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xoá";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -216,10 +210,9 @@
             this.btnThem.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Image = global::QuanLyThuVien.Properties.Resources.Knob_Add_icon;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(180, 673);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Location = new System.Drawing.Point(135, 547);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(128, 50);
+            this.btnThem.Size = new System.Drawing.Size(96, 41);
             this.btnThem.TabIndex = 2;
             this.btnThem.Text = "Thêm";
             this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -245,14 +238,13 @@
             this.Column15,
             this.Column8});
             this.dataGridViewSach.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridViewSach.Location = new System.Drawing.Point(8, 359);
-            this.dataGridViewSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewSach.Location = new System.Drawing.Point(6, 292);
             this.dataGridViewSach.MultiSelect = false;
             this.dataGridViewSach.Name = "dataGridViewSach";
             this.dataGridViewSach.ReadOnly = true;
             this.dataGridViewSach.RowHeadersWidth = 51;
             this.dataGridViewSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewSach.Size = new System.Drawing.Size(1152, 306);
+            this.dataGridViewSach.Size = new System.Drawing.Size(864, 249);
             this.dataGridViewSach.TabIndex = 1;
             this.dataGridViewSach.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSach_CellClick);
             // 
@@ -350,11 +342,9 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(128, 26);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(96, 21);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(887, 287);
+            this.groupBox1.Size = new System.Drawing.Size(665, 233);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập sách";
@@ -363,20 +353,18 @@
             // 
             this.txtSoLanMuon.Enabled = false;
             this.txtSoLanMuon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoLanMuon.Location = new System.Drawing.Point(163, 247);
-            this.txtSoLanMuon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoLanMuon.Location = new System.Drawing.Point(122, 201);
             this.txtSoLanMuon.Name = "txtSoLanMuon";
-            this.txtSoLanMuon.Size = new System.Drawing.Size(201, 30);
+            this.txtSoLanMuon.Size = new System.Drawing.Size(152, 26);
             this.txtSoLanMuon.TabIndex = 16;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(40, 250);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(30, 203);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(110, 22);
+            this.label17.Size = new System.Drawing.Size(86, 19);
             this.label17.TabIndex = 15;
             this.label17.Text = "Số lần mượn";
             // 
@@ -384,10 +372,9 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(468, 201);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(351, 163);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(76, 22);
+            this.label14.Size = new System.Drawing.Size(61, 19);
             this.label14.TabIndex = 14;
             this.label14.Text = "Mã sách";
             // 
@@ -395,19 +382,17 @@
             // 
             this.txtMaSach.Enabled = false;
             this.txtMaSach.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaSach.Location = new System.Drawing.Point(655, 201);
-            this.txtMaSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaSach.Location = new System.Drawing.Point(491, 163);
             this.txtMaSach.Name = "txtMaSach";
-            this.txtMaSach.Size = new System.Drawing.Size(189, 30);
+            this.txtMaSach.Size = new System.Drawing.Size(143, 26);
             this.txtMaSach.TabIndex = 4;
             // 
             // txtTinhTrang
             // 
             this.txtTinhTrang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTinhTrang.Location = new System.Drawing.Point(655, 148);
-            this.txtTinhTrang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTinhTrang.Location = new System.Drawing.Point(491, 120);
             this.txtTinhTrang.Name = "txtTinhTrang";
-            this.txtTinhTrang.Size = new System.Drawing.Size(189, 30);
+            this.txtTinhTrang.Size = new System.Drawing.Size(143, 26);
             this.txtTinhTrang.TabIndex = 12;
             this.txtTinhTrang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTinhTrang_KeyPress);
             // 
@@ -415,10 +400,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(468, 150);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(351, 122);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 22);
+            this.label8.Size = new System.Drawing.Size(69, 19);
             this.label8.TabIndex = 11;
             this.label8.Text = "Tình trạng";
             // 
@@ -426,20 +410,18 @@
             // 
             this.cbTenNXB.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTenNXB.FormattingEnabled = true;
-            this.cbTenNXB.Location = new System.Drawing.Point(655, 97);
-            this.cbTenNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbTenNXB.Location = new System.Drawing.Point(491, 79);
             this.cbTenNXB.Name = "cbTenNXB";
-            this.cbTenNXB.Size = new System.Drawing.Size(189, 30);
+            this.cbTenNXB.Size = new System.Drawing.Size(143, 27);
             this.cbTenNXB.TabIndex = 10;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(468, 102);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(351, 83);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(142, 22);
+            this.label7.Size = new System.Drawing.Size(112, 19);
             this.label7.TabIndex = 9;
             this.label7.Text = "Tên nhà xuất bản";
             // 
@@ -447,50 +429,45 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(468, 49);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(351, 40);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 22);
+            this.label6.Size = new System.Drawing.Size(79, 19);
             this.label6.TabIndex = 8;
             this.label6.Text = "Tên thể loại";
             // 
             // txtSoLuongTon
             // 
             this.txtSoLuongTon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoLuongTon.Location = new System.Drawing.Point(163, 198);
-            this.txtSoLuongTon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoLuongTon.Location = new System.Drawing.Point(122, 161);
             this.txtSoLuongTon.Name = "txtSoLuongTon";
-            this.txtSoLuongTon.Size = new System.Drawing.Size(201, 30);
+            this.txtSoLuongTon.Size = new System.Drawing.Size(152, 26);
             this.txtSoLuongTon.TabIndex = 7;
             this.txtSoLuongTon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoLuongTon_KeyPress);
             // 
             // txtDonGia
             // 
             this.txtDonGia.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDonGia.Location = new System.Drawing.Point(163, 148);
-            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDonGia.Location = new System.Drawing.Point(122, 120);
             this.txtDonGia.Name = "txtDonGia";
-            this.txtDonGia.Size = new System.Drawing.Size(201, 30);
+            this.txtDonGia.Size = new System.Drawing.Size(152, 26);
             this.txtDonGia.TabIndex = 6;
             this.txtDonGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDonGia_KeyPress);
             // 
             // txtTacGia
             // 
             this.txtTacGia.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTacGia.Location = new System.Drawing.Point(163, 97);
-            this.txtTacGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTacGia.Location = new System.Drawing.Point(122, 79);
             this.txtTacGia.Name = "txtTacGia";
-            this.txtTacGia.Size = new System.Drawing.Size(201, 30);
+            this.txtTacGia.Size = new System.Drawing.Size(152, 26);
             this.txtTacGia.TabIndex = 5;
             this.txtTacGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTacGia_KeyPress);
             // 
             // txtTenSach
             // 
             this.txtTenSach.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenSach.Location = new System.Drawing.Point(163, 44);
-            this.txtTenSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenSach.Location = new System.Drawing.Point(122, 36);
             this.txtTenSach.Name = "txtTenSach";
-            this.txtTenSach.Size = new System.Drawing.Size(201, 30);
+            this.txtTenSach.Size = new System.Drawing.Size(152, 26);
             this.txtTenSach.TabIndex = 1;
             this.txtTenSach.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenSach_KeyPress);
             // 
@@ -498,20 +475,18 @@
             // 
             this.cbTenTL.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTenTL.FormattingEnabled = true;
-            this.cbTenTL.Location = new System.Drawing.Point(655, 44);
-            this.cbTenTL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbTenTL.Location = new System.Drawing.Point(491, 36);
             this.cbTenTL.Name = "cbTenTL";
-            this.cbTenTL.Size = new System.Drawing.Size(189, 30);
+            this.cbTenTL.Size = new System.Drawing.Size(143, 27);
             this.cbTenTL.TabIndex = 4;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(40, 201);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(30, 163);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 22);
+            this.label5.Size = new System.Drawing.Size(87, 19);
             this.label5.TabIndex = 3;
             this.label5.Text = "Số lượng tồn";
             // 
@@ -519,10 +494,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(40, 150);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(30, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 22);
+            this.label4.Size = new System.Drawing.Size(56, 19);
             this.label4.TabIndex = 2;
             this.label4.Text = "Đơn giá";
             // 
@@ -530,10 +504,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(40, 102);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(30, 83);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 22);
+            this.label3.Size = new System.Drawing.Size(53, 19);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tác giả";
             // 
@@ -541,10 +514,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(40, 49);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(30, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 22);
+            this.label2.Size = new System.Drawing.Size(63, 19);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tên sách";
             // 
@@ -553,11 +525,10 @@
             this.tabPage2.BackColor = System.Drawing.Color.PapayaWhip;
             this.tabPage2.Controls.Add(this.panel2);
             this.tabPage2.Controls.Add(this.panel1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 31);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 28);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1171, 737);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(876, 595);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Thể loại và NXB";
             // 
@@ -569,20 +540,18 @@
             this.panel2.Controls.Add(this.dataGridViewNXB);
             this.panel2.Controls.Add(this.btnThemNXB);
             this.panel2.Controls.Add(this.groupBox3);
-            this.panel2.Location = new System.Drawing.Point(595, 57);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(446, 46);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(560, 651);
+            this.panel2.Size = new System.Drawing.Size(420, 529);
             this.panel2.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.Image = global::QuanLyThuVien.Properties.Resources.Knob_Cancel_icon;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(425, 580);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(319, 471);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 55);
+            this.button1.Size = new System.Drawing.Size(82, 45);
             this.button1.TabIndex = 4;
             this.button1.Text = "Huỷ";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -594,10 +563,9 @@
             this.btnSuaNXB.Enabled = false;
             this.btnSuaNXB.Image = global::QuanLyThuVien.Properties.Resources.Knob_Smart_icon;
             this.btnSuaNXB.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaNXB.Location = new System.Drawing.Point(291, 580);
-            this.btnSuaNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuaNXB.Location = new System.Drawing.Point(218, 471);
             this.btnSuaNXB.Name = "btnSuaNXB";
-            this.btnSuaNXB.Size = new System.Drawing.Size(109, 55);
+            this.btnSuaNXB.Size = new System.Drawing.Size(82, 45);
             this.btnSuaNXB.TabIndex = 2;
             this.btnSuaNXB.Text = "Sửa";
             this.btnSuaNXB.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -609,10 +577,9 @@
             this.btnXoaNXB.Enabled = false;
             this.btnXoaNXB.Image = global::QuanLyThuVien.Properties.Resources.Knob_Remove_Red_icon;
             this.btnXoaNXB.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaNXB.Location = new System.Drawing.Point(160, 580);
-            this.btnXoaNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoaNXB.Location = new System.Drawing.Point(120, 471);
             this.btnXoaNXB.Name = "btnXoaNXB";
-            this.btnXoaNXB.Size = new System.Drawing.Size(109, 55);
+            this.btnXoaNXB.Size = new System.Drawing.Size(82, 45);
             this.btnXoaNXB.TabIndex = 2;
             this.btnXoaNXB.Text = "Xoá";
             this.btnXoaNXB.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -633,14 +600,13 @@
             this.Column13,
             this.Column14});
             this.dataGridViewNXB.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridViewNXB.Location = new System.Drawing.Point(23, 299);
-            this.dataGridViewNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewNXB.Location = new System.Drawing.Point(17, 243);
             this.dataGridViewNXB.MultiSelect = false;
             this.dataGridViewNXB.Name = "dataGridViewNXB";
             this.dataGridViewNXB.ReadOnly = true;
             this.dataGridViewNXB.RowHeadersWidth = 51;
             this.dataGridViewNXB.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewNXB.Size = new System.Drawing.Size(512, 273);
+            this.dataGridViewNXB.Size = new System.Drawing.Size(384, 222);
             this.dataGridViewNXB.TabIndex = 2;
             this.dataGridViewNXB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewNXB_CellClick);
             // 
@@ -680,11 +646,10 @@
             // 
             this.btnThemNXB.Image = global::QuanLyThuVien.Properties.Resources.Knob_Add_icon;
             this.btnThemNXB.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemNXB.Location = new System.Drawing.Point(23, 580);
-            this.btnThemNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemNXB.Location = new System.Drawing.Point(17, 471);
             this.btnThemNXB.Name = "btnThemNXB";
             this.btnThemNXB.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnThemNXB.Size = new System.Drawing.Size(109, 55);
+            this.btnThemNXB.Size = new System.Drawing.Size(82, 45);
             this.btnThemNXB.TabIndex = 2;
             this.btnThemNXB.Text = "Thêm";
             this.btnThemNXB.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -701,11 +666,9 @@
             this.groupBox3.Controls.Add(this.txtDiaChi);
             this.groupBox3.Controls.Add(this.txtTenNXB);
             this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Location = new System.Drawing.Point(23, 30);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Location = new System.Drawing.Point(17, 24);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(512, 262);
+            this.groupBox3.Size = new System.Drawing.Size(384, 213);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Nhà xuất bản";
@@ -713,75 +676,67 @@
             // txtMaNXB
             // 
             this.txtMaNXB.Enabled = false;
-            this.txtMaNXB.Location = new System.Drawing.Point(192, 38);
-            this.txtMaNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaNXB.Location = new System.Drawing.Point(144, 31);
             this.txtMaNXB.Name = "txtMaNXB";
-            this.txtMaNXB.Size = new System.Drawing.Size(276, 30);
+            this.txtMaNXB.Size = new System.Drawing.Size(208, 26);
             this.txtMaNXB.TabIndex = 7;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(33, 42);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(25, 34);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(82, 22);
+            this.label15.Size = new System.Drawing.Size(67, 19);
             this.label15.TabIndex = 6;
             this.label15.Text = "Mã NXB";
             // 
             // dateTimeThanhLap
             // 
             this.dateTimeThanhLap.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeThanhLap.Location = new System.Drawing.Point(192, 206);
-            this.dateTimeThanhLap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimeThanhLap.Location = new System.Drawing.Point(144, 167);
             this.dateTimeThanhLap.Name = "dateTimeThanhLap";
-            this.dateTimeThanhLap.Size = new System.Drawing.Size(276, 30);
+            this.dateTimeThanhLap.Size = new System.Drawing.Size(208, 26);
             this.dateTimeThanhLap.TabIndex = 5;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(33, 208);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(25, 169);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(127, 22);
+            this.label12.Size = new System.Drawing.Size(100, 19);
             this.label12.TabIndex = 4;
             this.label12.Text = "Ngày thành lập";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(33, 151);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(25, 123);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(68, 22);
+            this.label11.Size = new System.Drawing.Size(51, 19);
             this.label11.TabIndex = 3;
             this.label11.Text = "Địa chỉ";
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(192, 146);
-            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiaChi.Location = new System.Drawing.Point(144, 119);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(276, 30);
+            this.txtDiaChi.Size = new System.Drawing.Size(208, 26);
             this.txtDiaChi.TabIndex = 2;
             // 
             // txtTenNXB
             // 
-            this.txtTenNXB.Location = new System.Drawing.Point(192, 89);
-            this.txtTenNXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNXB.Location = new System.Drawing.Point(144, 72);
             this.txtTenNXB.Name = "txtTenNXB";
-            this.txtTenNXB.Size = new System.Drawing.Size(276, 30);
+            this.txtTenNXB.Size = new System.Drawing.Size(208, 26);
             this.txtTenNXB.TabIndex = 1;
             this.txtTenNXB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenNXB_KeyPress);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(33, 92);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(25, 75);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 22);
+            this.label10.Size = new System.Drawing.Size(112, 19);
             this.label10.TabIndex = 0;
             this.label10.Text = "Tên nhà xuất bản";
             // 
@@ -793,20 +748,18 @@
             this.panel1.Controls.Add(this.btnThemTheLoai);
             this.panel1.Controls.Add(this.dataGridViewTheLoai);
             this.panel1.Controls.Add(this.groupBox2);
-            this.panel1.Location = new System.Drawing.Point(27, 57);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(20, 46);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(519, 651);
+            this.panel1.Size = new System.Drawing.Size(389, 529);
             this.panel1.TabIndex = 4;
             // 
             // btnHuy
             // 
             this.btnHuy.Image = global::QuanLyThuVien.Properties.Resources.Knob_Cancel_icon;
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuy.Location = new System.Drawing.Point(387, 580);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Location = new System.Drawing.Point(290, 471);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(109, 55);
+            this.btnHuy.Size = new System.Drawing.Size(82, 45);
             this.btnHuy.TabIndex = 3;
             this.btnHuy.Text = "Huỷ";
             this.btnHuy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -817,10 +770,9 @@
             // 
             this.btnSuaTheLoai.Image = global::QuanLyThuVien.Properties.Resources.Knob_Smart_icon;
             this.btnSuaTheLoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaTheLoai.Location = new System.Drawing.Point(269, 580);
-            this.btnSuaTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuaTheLoai.Location = new System.Drawing.Point(202, 471);
             this.btnSuaTheLoai.Name = "btnSuaTheLoai";
-            this.btnSuaTheLoai.Size = new System.Drawing.Size(109, 55);
+            this.btnSuaTheLoai.Size = new System.Drawing.Size(82, 45);
             this.btnSuaTheLoai.TabIndex = 2;
             this.btnSuaTheLoai.Text = "Sửa";
             this.btnSuaTheLoai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -831,10 +783,9 @@
             // 
             this.btnXoaTheLoai.Image = global::QuanLyThuVien.Properties.Resources.Knob_Remove_Red_icon;
             this.btnXoaTheLoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaTheLoai.Location = new System.Drawing.Point(139, 580);
-            this.btnXoaTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoaTheLoai.Location = new System.Drawing.Point(104, 471);
             this.btnXoaTheLoai.Name = "btnXoaTheLoai";
-            this.btnXoaTheLoai.Size = new System.Drawing.Size(109, 55);
+            this.btnXoaTheLoai.Size = new System.Drawing.Size(82, 45);
             this.btnXoaTheLoai.TabIndex = 2;
             this.btnXoaTheLoai.Text = "Xoá";
             this.btnXoaTheLoai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -845,11 +796,10 @@
             // 
             this.btnThemTheLoai.Image = global::QuanLyThuVien.Properties.Resources.Knob_Add_icon;
             this.btnThemTheLoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemTheLoai.Location = new System.Drawing.Point(21, 580);
-            this.btnThemTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemTheLoai.Location = new System.Drawing.Point(16, 471);
             this.btnThemTheLoai.Name = "btnThemTheLoai";
             this.btnThemTheLoai.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnThemTheLoai.Size = new System.Drawing.Size(109, 55);
+            this.btnThemTheLoai.Size = new System.Drawing.Size(82, 45);
             this.btnThemTheLoai.TabIndex = 2;
             this.btnThemTheLoai.Text = "Thêm";
             this.btnThemTheLoai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -868,14 +818,13 @@
             this.Column9,
             this.Column10});
             this.dataGridViewTheLoai.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridViewTheLoai.Location = new System.Drawing.Point(21, 299);
-            this.dataGridViewTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewTheLoai.Location = new System.Drawing.Point(16, 243);
             this.dataGridViewTheLoai.MultiSelect = false;
             this.dataGridViewTheLoai.Name = "dataGridViewTheLoai";
             this.dataGridViewTheLoai.ReadOnly = true;
             this.dataGridViewTheLoai.RowHeadersWidth = 51;
             this.dataGridViewTheLoai.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewTheLoai.Size = new System.Drawing.Size(475, 273);
+            this.dataGridViewTheLoai.Size = new System.Drawing.Size(356, 222);
             this.dataGridViewTheLoai.TabIndex = 1;
             this.dataGridViewTheLoai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewTheLoai_CellClick);
             // 
@@ -901,50 +850,44 @@
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.txtTenTheLoai);
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Location = new System.Drawing.Point(21, 30);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(16, 24);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(475, 262);
+            this.groupBox2.Size = new System.Drawing.Size(356, 213);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thể loại";
             // 
             // txtMaTL
             // 
-            this.txtMaTL.Location = new System.Drawing.Point(156, 85);
-            this.txtMaTL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaTL.Location = new System.Drawing.Point(117, 69);
             this.txtMaTL.Name = "txtMaTL";
-            this.txtMaTL.Size = new System.Drawing.Size(287, 30);
+            this.txtMaTL.Size = new System.Drawing.Size(216, 26);
             this.txtMaTL.TabIndex = 3;
             this.txtMaTL.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaTL_KeyPress);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(27, 89);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(20, 72);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(100, 22);
+            this.label13.Size = new System.Drawing.Size(77, 19);
             this.label13.TabIndex = 2;
             this.label13.Text = "Mã thể loại";
             // 
             // txtTenTheLoai
             // 
-            this.txtTenTheLoai.Location = new System.Drawing.Point(156, 143);
-            this.txtTenTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenTheLoai.Location = new System.Drawing.Point(117, 116);
             this.txtTenTheLoai.Name = "txtTenTheLoai";
-            this.txtTenTheLoai.Size = new System.Drawing.Size(287, 30);
+            this.txtTenTheLoai.Size = new System.Drawing.Size(216, 26);
             this.txtTenTheLoai.TabIndex = 1;
             this.txtTenTheLoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenTheLoai_KeyPress);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(24, 146);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(18, 119);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 22);
+            this.label9.Size = new System.Drawing.Size(79, 19);
             this.label9.TabIndex = 0;
             this.label9.Text = "Tên thể loại";
             // 
@@ -952,22 +895,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(525, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(394, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 46);
+            this.label1.Size = new System.Drawing.Size(176, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Quản lý sách";
             // 
             // FrmQLSach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(1276, 850);
+            this.ClientSize = new System.Drawing.Size(957, 691);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmQLSach";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý sách";
