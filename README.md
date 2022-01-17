@@ -1,3 +1,4 @@
-File note for everyone must read
+Install QLTV Hutech App: File Setup  
+Link Google Drive: https://drive.google.com/drive/folders/12F9j-ffHwvkjloQC3xZ-TChqRrD2UL_e?usp=sharing 
 
-This branch is for testing only 
+Đồ án của Nhóm 7 
